@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+}
+
+.buttons-wrapper {
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+}
+
+textarea {
+  width: 400px;
+  height: 600px;
+  resize: none;
+}
