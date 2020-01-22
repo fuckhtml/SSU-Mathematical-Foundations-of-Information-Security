@@ -14,7 +14,10 @@ Form.show()
 
 
 # Hook logic 
+def encrypt():
+	ui.textEdit.setText( "Button is pressed" )
 
+ui.pushButton.clicked.connect( encrypt )
 
 # Run main loop 
 sys.exit(app.exec_())
